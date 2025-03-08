@@ -1,0 +1,87 @@
+<!-- Crea un formeulario con un campo de tipo textarea, email, contraseña, radio, select, checkbox, fichero, fecha, numero,color y submit.
+los campos deberan estar dentro de un fieldset y usar campo legend
+los campos deberan tener un label-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 22 HTML</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form>
+        <fieldset>
+            <legend>Description</legend>
+            <label for="description">Enter a description</label>
+            <textarea name="description" id="description"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Email</legend>
+            <label for="email">Enter a email</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio</legend>
+            <label for="age">Age:</label>
+            <input type="radio" name="age" id="adult">
+            <label for="adult">Adult</label>
+
+            <label for="age">Age:</label>
+            <input type="radio" name="age" id="under-age">
+            <label for="under-age">Under-age</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select</legend>
+            <label for="food">Food</label>
+            <select>
+                <option>Salad</option>
+                <option>Pizza</option>
+                <option>Chicken</option>
+                <option>Fish</option>
+                <option>Tomato</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Checkbox</legend>
+            <label for="vegan">Vegan:</label>
+            <input type="checkbox" name="vegan" id="vegan">
+        </fieldset>
+
+        <fieldset>
+            <legend>File</legend>
+            <label for="file">Upload your file</label>
+            <input type="file" name="file" id="file">
+        </fieldset>
+
+        <fieldset>
+            <legend>Date</legend>
+            <label for="date">date:</label>
+            <input type="date" name="date" id="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Number</legend>
+            <label for="number">number:</label>
+            <input type="number" name="number" id="number">
+        </fieldset>
+
+        <fieldset>
+            <legend>Color</legend>
+            <label for="color">color:</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+        <br>
+        <input type="submit" value="Send form" />
+
+    </form>
+</body>
+
+</html>

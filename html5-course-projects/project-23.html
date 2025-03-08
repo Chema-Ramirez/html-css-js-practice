@@ -1,0 +1,59 @@
+<!-- Crea un formulario con un campo de tipo búsqueda, teléfono, hora, URL, barra progreso, lista de datos, submit y reset. Todos deberan tener un label -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 23 HTML</title>
+</head>
+
+<body>
+    <form>
+
+        <div>
+            <label for="search">Search:</label>
+            <input type="search" id="search">
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone">
+        </div>
+
+        <div>
+            <label for="hour">Hour:</label>
+            <input type="time" id="hour">
+        </div>
+
+        <div>
+            <label for="Web">Web site:</label>
+            <input type="url" id="web">
+        </div>
+
+        <div>
+            <label for="progress">Progress:</label>
+            <progress max="100" value="27"></progress>
+        </div>
+
+        <div>
+            <label for="cars">Car list:</label>
+            <input list="cars" name="car">
+            <datalist id="cars">
+                <option value="Audi"></option>
+                <option value="Renault"></option>
+                <option value="Opel"></option>
+                <option value="Skoda"></option>
+            </datalist>
+        </div>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+
+</body>
+
+</html>
