@@ -14,14 +14,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e47c92;
+  background-color: #887e7e;
 }
 
 .layout__main {
   min-width: 40rem;
   border: 2rem;
   background-color: white;
-  box-shadow: 0px 0px 14px #e95270;
+  box-shadow: 0px 0px 20px #0e063d;
   border-radius: 20px;
 }
 
@@ -31,8 +31,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 3rem;
-  border-radius: 10px 10px 0 0;
-  background-color: #e95270;
+  border-radius: 20px 20px 0 0;
+  background-color: #302088;
 }
 
 .user__container-img {
