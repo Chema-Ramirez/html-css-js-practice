@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(87, 230, 182);
+}
+
+article h2 {
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+}
+
+article a {
+  font-size: 18px;
+  color: rgb(230, 27, 27);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article p {
+  font-size: 14px;
+  border: 1px solid rgb(143, 142, 142);
+  color: #000;
+  padding: 10px;
+}
