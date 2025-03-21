@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  background-color: darkslategrey;
+}
+
+a {
+  transition: all 300ms linear;
+}
+
+ul > li > a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+ul > li > a:hover {
+  color: rgb(0, 119, 255);
+}
+
+li > ul > li > a {
+  color: red;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+li > ul > li > a:hover {
+  color: rgb(133, 3, 3);
+}
