@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Project 10 - CSS</title>
+</head>
+
+<body>
+    <div class="layout">
+        <h1 class="layout__title">Find your hotel</h1>
+
+        <form class="layout__search">
+            <input type="search" class="layout__input" name="search__input"
+                placeholder="We will find the hotel you are looking for" />
+            <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <main class="layout__results">
+            <article class="results__result">
+                <p class="result__subtitle">Name:</p>
+                <h3 class="result__title">Random Hotel</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Location:</p>
+                <h3 class="result__title">Random Street 15</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Date:</p>
+                <h3 class="result__title">01/01/2025</h3>
+            </article>
+        </main>
+
+        <section class="layout__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194347.47827013538!2d-3.844343464188269!3d40.438098610297125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid!5e0!3m2!1ses!2ses!4v1742547808287!5m2!1ses!2ses"
+                width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map__frame"></iframe>
+        </section>
+    </div>
+</body>
+
+</html>

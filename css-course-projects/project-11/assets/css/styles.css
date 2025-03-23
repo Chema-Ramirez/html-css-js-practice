@@ -1,0 +1,22 @@
+body {
+  background-image: url(../img/pattern-1.jpg);
+}
+
+header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid black;
+  background: rgb(103, 178, 221);
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  border: 3px solid teal;
+  background-color: tomato;
+  padding: 10px;
+  color: white;
+}

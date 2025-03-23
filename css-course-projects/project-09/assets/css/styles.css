@@ -1,0 +1,23 @@
+@font-face {
+  font-family: OpenSansLocal;
+  src: url(../fonts/opensans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
+body {
+  background-color: rgb(30, 66, 54);
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Roboto";
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "OpenSansLocal";
+}
+
+h4 {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
