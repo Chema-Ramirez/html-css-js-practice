@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Project 24 - CCS</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main class="layout__main">
+            <section class="main__left">
+                <ol class="main__steps">
+                    <li class="steps__item">
+                        <div class="steps__container-number">
+                            <span class="steps__number">1</span>
+                        </div>
+                        <div class="steps__content">
+                            <span class="steps__title">Step 1</span>
+                            <span class="steps__description">Create your account</span>
+                        </div>
+                    </li>
+
+                    <li class="steps__item">
+                        <div class="steps__container-number">
+                            <span class="steps__number">2</span>
+                        </div>
+                        <div class="steps__content">
+                            <span class="steps__title">Step 2</span>
+                            <span class="steps__description">Adress</span>
+                        </div>
+                    </li>
+
+                    <li class="steps__item">
+                        <div class="steps__container-number">
+                            <span class="steps__number">3</span>
+                        </div>
+                        <div class="steps__content">
+                            <span class="steps__title">Step 3</span>
+                            <span class="steps__description">Method of payment</span>
+                        </div>
+                    </li>
+
+                    <li class="steps__item">
+                        <div class="steps__container-number">
+                            <span class="steps__number">4</span>
+                        </div>
+                        <div class="steps__content">
+                            <span class="steps__title">Step 4</span>
+                            <span class="steps__description">Confirmation</span>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+            <section class="main__right">
+                <header class="main__header">
+                    <h1 class="header__title">Register</h1>
+                    <p class="header__subtitle">Create your account to track your purchase</p>
+                </header>
+                <form class="main__form">
+                    <div class="form__control">
+                        <label class="form__label" for="name">Name</label>
+                        <input type="text" name="name" id="name" class="form__input" placeholder="Insert your name" />
+                    </div>
+
+                    <div class="form__control">
+                        <label class="form__label" for="surname">Surname</label>
+                        <input type="text" name="surname" id="surname" class="form__input"
+                            placeholder="Insert your surname" />
+                    </div>
+
+                    <div class="form__control">
+                        <label class="form__label" for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form__input"
+                            placeholder="Insert your email" />
+                    </div>
+
+                    <div class="form__control">
+                        <label class="form__label" for="date">Date</label>
+                        <input type="date" name="date" id="date" class="form__input" />
+                    </div>
+
+                    <div class="form__control">
+                        <label class="form__label" for="pass">Password</label>
+                        <input type="password" name="pass" id="pass" class="form__input"
+                            placeholder="Insert your password" />
+                    </div>
+
+                    <input type="submit" value="Continue" class="form__btn">
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
