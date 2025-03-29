@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.tables {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tables__item {
+  width: calc(20% - 8px);
+  background-color: #4647eb;
+  border: 0.5rem;
+}
+
+.tables__title {
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tables__list {
+  list-style: none;
+  padding: 0;
+  color: snow;
+}
+
+.list__item {
+  font-size: 15px;
+  color: snow;
+  margin-bottom: 5px;
+}
