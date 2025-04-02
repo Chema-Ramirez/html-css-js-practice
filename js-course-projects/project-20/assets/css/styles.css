@@ -1,0 +1,39 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+  background-color: #dadada;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: #5d38be;
+}
+
+.main__date,
+.main__hour {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-shadow: 0 0 2px #27184d;
+  margin-bottom: 0.5rem;
+}
+
+.main__hour {
+  font-size: 3rem;
+}

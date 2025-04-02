@@ -1,0 +1,68 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  background-color: #e9effb;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout__main {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout__container-crono {
+  margin-bottom: 1rem;
+}
+
+.layout__crono {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.layout__btns {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.layout__btn-start,
+.layout__btn-stop {
+  width: 100%;
+  border: none;
+  background-color: #e53f41;
+  color: whitesmoke;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.layout__btn-stop {
+  background-color: #cccccc;
+  color: whitesmoke;
+}
+
+.layout__btn-start:hover {
+  background-color: #26654b;
+}
+
+.layout__btn-stop:hover {
+  background-color: #000000;
+}
