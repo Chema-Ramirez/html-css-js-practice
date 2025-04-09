@@ -1,0 +1,62 @@
+<!--Debemos poder mover las cajas a su hueco correspondiente en el almacén, 
+al soltarlas deberán quedarse ahí y quitar su sombra indicando que está ocupada, 
+cuando no haya más cajas que mover, se debe mostrar una alerta.
+No puede haber más de una caja por hueco.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="main.js"></script>
+    <title>Project 21 - JS</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main class="layout__main">
+            <section class="main__inventory">
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+                <div class="inventory__box" draggable="true"></div>
+            </section>
+
+            <section class="main__store">
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+                <div class="store__shelf"></div>
+            </section>
+        </main>
+        <h1 class="main__title">Store with JavaScript</h1>
+    </div>
+</body>
+
+</html>

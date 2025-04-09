@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  background-color: #e8f0f9;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout__main {
+  max-width: 40rem;
+}
+
+.main__inventory {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.inventory__box {
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #348bd4;
+}
+
+.main__store {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 50rem;
+  border: 2px solid black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.store__shelf {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+  box-shadow: 0 0 8px black inset;
+  opacity: 0.5;
+}
+
+.main__title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 1rem;
+}
