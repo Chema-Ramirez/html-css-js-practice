@@ -1,0 +1,77 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1580ad;
+  background: radial-gradient(
+    circle,
+    rgba(21, 128, 173, 1) 0%,
+    rgba(40, 120, 74, 1) 63%,
+    rgba(191, 168, 13, 1) 100%
+  );
+}
+
+.layout__main {
+  position: relative;
+  width: 60rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  transition: all 300ms linear;
+  background-color: white;
+}
+
+.main__input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.main__icons {
+  flex-basis: 10%;
+}
+
+.icons__check,
+.icons__xmark {
+  position: absolute;
+  margin-top: 0.9rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.icons__check {
+  color: #70c16f;
+}
+
+.icons__xmark {
+  color: #f35e5f;
+}
+
+.focus {
+  border-color: black;
+}
+
+.main__icons > .show {
+  opacity: 1;
+}

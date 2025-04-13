@@ -1,0 +1,57 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.layout {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eeaeca;
+  background: linear-gradient(
+    267deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.layout__form {
+  display: flex;
+  border: 2px solid #444;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.form__input {
+  width: 26rem;
+  height: 5rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form__eye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  color: #444;
+}
+
+.form__eye > .fa-solid {
+  cursor: pointer;
+}
+
+.form__eye > .fa-solid:active {
+  color: rgb(16, 69, 182);
+}
