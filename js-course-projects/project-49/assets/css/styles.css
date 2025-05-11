@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 .layout {
@@ -12,33 +13,102 @@ body {
   min-height: 100%;
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: #918c8c;
+  background-color: #7a8494;
+  color: white;
 }
 
 .layout__main {
-  width: 100rem;
+  width: 50rem;
 }
 
 .main__title {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.main__form {
+  width: 100%;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #24263d;
+  padding: 1.5rem;
+  border-radius: 5px;
   margin-bottom: 4rem;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #eee8e8;
 }
 
-.main__stars {
+.form__input::placeholder {
+  color: whitesmoke;
+}
+
+.form__list {
+  list-style: none;
+  border-radius: 5px;
+}
+
+.list__item {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1.5rem;
+  background-color: #24263d;
+  border: 1px solid #eee8e8;
+  color: white;
+  transition: all 300ms ease;
 }
 
-.stars__star {
-  font-size: 6rem;
-  color: snow;
+.list__task {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.task__check {
+  width: 2rem;
+  height: 2rem;
+  background-color: #eee8e8;
+  border-radius: 50%;
+  border: none;
+  appearance: none;
+  outline: none;
   cursor: pointer;
 }
 
-.active {
-  color: yellow;
+.task__check:checked {
+  background-image: url("../img/check.svg");
+  background-size: contain;
+}
+
+.task__text {
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
+.list__delete {
+  color: red;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: all 300ms linear;
+}
+
+.list__delete:hover {
+  background-color: #444;
+}
+
+.list__item--completed .task__text {
+  color: #35bb57;
+  text-decoration: line-through;
 }
